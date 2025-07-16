@@ -1,0 +1,25 @@
+body {
+    background: linear-gradient(135deg, #e3f0ff 0%, #fafcff 100%);
+    min-height: 100vh;
+}
+.medicos-section, .citas-section, .hero-section {
+    background: #fff;
+    border-radius: 1.5rem;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.07);
+    padding: 2.5rem 2rem;
+    margin-top: 3rem;
+}
+.medico-card, .action-cards .card {
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0 2px 8px rgba(13,110,253,0.07);
+    transition: box-shadow 0.2s;
+}
+.medico-card:hover, .action-cards .card:hover {
+    box-shadow: 0 4px 16px rgba(13,110,253,0.13);
+}
+.medico-card img {
+    border-radius: 1rem;
+    width: 100%;
+    height: auto;
+}
